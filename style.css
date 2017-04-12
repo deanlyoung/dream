@@ -1,0 +1,750 @@
+/* dream */
+
+body {
+	width: 100%;
+	height: 100%;
+}
+
+#center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#list-nav {
+	position: absolute;
+	top: 10px;
+	left: 100px;
+	border: 1px solid #000000;
+	padding: 10px;
+	background: #c0c0c0;
+	color: #000000;
+	z-index: 9999999;
+}
+
+.listitem-nav {
+	display: inline-block;
+	background: #ffffff;
+	border: 1px solid #000000;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	padding: 5px 10px 5px 10px;
+	text-align: center;
+}
+
+#list-nav a {
+	text-decoration: none;
+	color: #000000;
+}
+
+#dream-nav {
+	margin-left: 0px;
+}
+
+#box-nav {
+	margin-left: 5px;
+}
+
+#envelope-nav {
+	margin-left: 5px;
+}
+
+#open-envelope-nav {
+	margin-left: 5px;
+}
+
+#iphone-nav {
+	margin-left: 5px;
+}
+
+#text-dream {
+	position: absolute;
+	top: 150px;
+	left: 100px;
+	font-size: 36px;
+	color: #000000;
+	z-index: 5;
+	text-shadow: -2px -2px 4px #999999;
+}
+
+
+/* box */
+
+#back-box {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	border: 1px solid #000000;
+	width: 300px;
+	height: 300px;
+	background: none;
+	z-index: 0;
+	opacity: 1;
+	-webkit-box-shadow: -9px 0px 6px -10px hsla(0,0%,0%,.5), -5px -5px 5px -5px hsla(0,0%,0%,.5);
+	-moz-box-shadow: -9px 0px 6px -10px hsla(0,0%,0%,.5), -5px -5px 5px -5px hsla(0,0%,0%,.5);
+	box-shadow: -9px 0px 6px -10px hsla(0,0%,0%,.5), -5px -5px 5px -5px hsla(0,0%,0%,.5);
+}
+
+#front-box {
+	position: absolute;
+	top: 130px;
+	left: 140px;
+	border: 1px solid #000000;
+	width: 300px;
+	height: 300px;
+	background: none;
+	z-index: 99999;
+	opacity: 1;
+	-webkit-box-shadow: 0px 9px 10px -10px hsla(0,0%,0%,.5);
+	-moz-box-shadow: 0px 9px 10px -10px hsla(0,0%,0%,.5);
+	box-shadow: 0px 9px 10px -10px hsla(0,0%,0%,.5);
+}
+
+#topleft-box {
+	position: absolute;
+	top: 115px;
+	left: 95px;
+	border-top: 1px solid #000000;
+	width: 50px;
+	background: none;
+	z-index: 1;
+	-webkit-transform: rotate(37deg);
+	-moz-transform: rotate(37deg);
+	-o-transform: rotate(37deg);
+	-ms-transform: rorate(37deg);
+}
+
+#topright-box {
+	position: absolute;
+	top: 115px;
+	left: 396px;
+	border-top: 1px solid #000000;
+	width: 50px;
+	background: none;
+	z-index: 2;
+	-webkit-transform: rotate(37deg);
+	-moz-transform: rotate(37deg);
+	-o-transform: rotate(37deg);
+	-ms-transform: rorate(37deg);
+}
+
+#bottomright-box {
+	position: absolute;
+	top: 416px;
+	left: 396px;
+	border-top: 1px solid #000000;
+	width: 50px;
+	background: none;
+	z-index: 3;
+	-webkit-transform: rotate(37deg);
+	-moz-transform: rotate(37deg);
+	-o-transform: rotate(37deg);
+	-ms-transform: rorate(37deg);
+}
+
+#bottomleft-box {
+	position: absolute;
+	top: 416px;
+	left: 95px;
+	border-top: 1px solid #000000;
+	width: 50px;
+	background: none;
+	z-index: 4;
+	-webkit-transform: rotate(37deg);
+	-moz-transform: rotate(37deg);
+	-o-transform: rotate(37deg);
+	-ms-transform: rorate(37deg);
+}
+
+#text-box {
+	position: absolute;
+	top: 250px;
+	left: 225px;
+	color: #000000;
+	z-index: 5;
+	text-shadow: -2px -2px 4px #999999;
+}
+
+
+/* envelope */
+
+#envelope-env {
+	position: absolute;
+	top: 115px;
+	left: 100px;
+	width: 500px;
+	height: 400px;
+	background: none;
+	border: 1px solid #000000;
+	z-index: 999;
+}
+
+#top-env {
+	position: absolute;
+	top: -90px;
+	left: 145px;
+	width: 410px;
+	height: 410px;
+	background: #ffffff;
+	border-top: 0px;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-left: 0px;
+	z-index: 2;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-ms-transform: rorate(45deg);
+	border-radius: 100px;
+	-moz-border-radius: 100px;
+	box-shadow: 3px 3px 3px #c0c0c0;
+	-webkit-box-shadow: 3px 3px 3px #c0c0c0;
+	-moz-box-shadow: 3px 3px 3px #c0c0c0;
+}
+
+#bottom-env {
+	position: absolute;
+	top: 340px;
+	left: 174px;
+	width: 352px;
+	height: 352px;
+	background: #ffffff;
+	border-top: 1px solid #000000;
+	border-right: 0px solid #000000;
+	border-bottom: 0px solid #000000;
+	border-left: 1px solid #000000;
+	z-index: 1;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-ms-transform: rorate(45deg);
+}
+
+#cover-env {
+	position: absolute;
+	top: 0px;
+	left: 95px;
+	width: 510px;
+	height: 115px;
+	background: #ffffff;
+	border: 0px;
+	z-index: 3;
+}
+
+
+/* open-envelope */
+
+#envelope-oenv {
+	position: absolute;
+	top: 355px;
+	left: 100px;
+	width: 500px;
+	height: 400px;
+	background: none;
+	border: 1px solid #000000;
+	z-index: 3;
+}
+
+#top-inside-oenv {
+	position: absolute;
+	top: 178px;
+	left: 174px;
+	width: 352px;
+	height: 352px;
+	background: #ffffff;
+	border: 1px solid #000000;
+	z-index: 2;
+	border-top-left-radius: 100px;
+	-moz-border-radius: 100px;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-ms-transform: rorate(45deg);
+	box-shadow: inset -3px -3px 3px #c0c0c0;
+	-moz-box-shadow: inset -3px -3px 3px #c0c0c0;
+	-webkit-box-shadow: inset -3px -3px 3px #c0c0c0;
+}
+
+#topside-oenv {
+	position: absolute;
+	top: 556px;
+	left: 301px;
+	width: 99px;
+	height: 100px;
+	background: #ffffff;
+	border-bottom: 1px solid #000000;
+	z-index: 5;
+	box-shadow: 0 8px 6px -6px #c0c0c0;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rorate(180deg);
+}
+
+#bottom-oenv {
+	position: absolute;
+	top: 580px;
+	left: 174px;
+	width: 352px;
+	height: 352px;
+	background: #ffffff;
+	border-top: 1px solid #000000;
+	border-right: 0px solid #000000;
+	border-bottom: 0px solid #000000;
+	border-left: 1px solid #000000;
+	z-index: 1;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-ms-transform: rorate(45deg);
+}
+
+#bottom-cover-oenv {
+	position: absolute;
+	top: 756px;
+	left: 100px;
+	width: 500px;
+	height: 50px;
+	background: #ffffff;
+	border-top: 1px solid #000000;
+	z-index: 4;
+}
+
+
+/* iphone */
+
+#frame {
+	position: absolute;
+	top: 100px;
+	left: 200px;
+	width: 58.57mm;
+	height: 123.83mm;
+	background: #ffffff;
+	border: 1px solid #c0c0c0;
+	border-radius: 30px;
+	-moz-border-radius: 30px;
+}
+
+#glass {
+	position: relative;
+	top: 8.00mm;
+	left: 3.43mm;
+	width: 51.70mm;
+	height: 90.39mm;
+	background: #000000;
+	border: 1px solid #000000;
+}
+
+#home-button {
+	position: relative;
+	top: 92.51mm;
+	left: 20.40mm;
+	width: 10.90mm;
+	height: 10.90mm;
+	background: #ffffff;
+	border: 1px solid #c0c0c0;
+	border-radius: 100px;
+	-moz-border-radius: 100px;
+}
+
+#home-button-center {
+	position: relative;
+	top: 3.90mm;
+	left: 3.90mm;
+	width: 3.00mm;
+	height: 3.00mm;
+	border: 1px solid #c0c0c0;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+#front-camera {
+	position: relative;
+	top: 4.32mm;
+	left: 27.53mm;
+	width: 2.75mm;
+	height: 2.75mm;
+	background: #000000;
+	border: 1px solid #000000;
+	border-radius: 100px;
+	-moz-border-radius: 100px;
+}
+
+#proximity-sensor {
+	position: relative;
+	top: 3.00mm;
+	left: 20.00mm;
+	width: 2.00mm;
+	height: 2.00mm;
+	background: #000000;
+	border: 1px solid #000000;
+	border-radius: 100px;
+	-moz-border-radius: 100px;
+}
+
+#ear-speaker {
+	position: relative;
+	top: 5.50mm;
+	left: 23.88mm;
+	width: 10.80mm;
+	height: 2.30mm;
+	background: #000000;
+	border: 1px solid #c0c0c0;
+	border-radius: 100px;
+	-moz-border-radius: 100px;
+}
+
+#ringer-switch {
+	position: absolute;
+	top: 100px;
+	left: 200px;
+	width: 0.63;
+	height: 6.00mm;
+	background: #c0c0c0;
+	border: 1px solid #c0c0c0;
+	margin: 16.86mm 0.00mm 0.00mm -0.70mm;
+}
+
+#volume-up {
+	position: absolute;
+	top: 100px;
+	left: 200px;
+	width: 0.58;
+	height: 4.80mm;
+	background: #c0c0c0;
+	border: 1px solid #c0c0c0;
+	margin: 28.28mm 0.00mm 0.00mm -0.70mm;
+}
+
+#volume-down {
+	position: absolute;
+	top: 100px;
+	left: 200px;
+	width: 0.50mm;
+	height: 4.80mm;
+	background: #c0c0c0;
+	border: 1px solid #c0c0c0;
+	margin: 38.57mm 0.00mm 0.00mm -0.70mm;
+}
+
+#power-button {
+	position: absolute;
+	top: 100px;
+	left: 200px;
+	width: 9.50mm;
+	height: 0.58mm;
+	background: #c0c0c0;
+	border: 1px solid #c0c0c0;
+	margin: -1.00mm 0.00mm 0.00mm 39.27mm;
+}
+
+/* circles */
+
+#c001 {
+	position: fixed;
+	width: 10px;
+	height: 10px;
+	top: 250px;
+	left: 250px;
+	border: 1px solid #000000;
+	border-radius: 10px;
+}
+
+#c002 {
+	position: fixed;
+	width: 20px;
+	height: 20px;
+	top: 245px;
+	left: 245px;
+	border: 1px solid #000000;
+	border-radius: 20px;
+}
+
+#c003 {
+	position: fixed;
+	width: 30px;
+	height: 30px;
+	top: 240px;
+	left: 240px;
+	border: 1px solid #000000;
+	border-radius: 30px;
+}
+
+#c004 {
+	position: fixed;
+	width: 40px;
+	height: 40px;
+	top: 235px;
+	left: 235px;
+	border: 1px solid #000000;
+	border-radius: 40px;
+}
+
+#c005 {
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	top: 230px;
+	left: 230px;
+	border: 1px solid #000000;
+	border-radius: 50px;
+}
+
+#c006 {
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	top: 225px;
+	left: 225px;
+	border: 1px solid #000000;
+	border-radius: 60px;
+}
+
+#c007 {
+	position: fixed;
+	width: 70px;
+	height: 70px;
+	top: 220px;
+	left: 220px;
+	border: 1px solid #000000;
+	border-radius: 70px;
+}
+
+#c008 {
+	position: fixed;
+	width: 80px;
+	height: 80px;
+	top: 215px;
+	left: 215px;
+	border: 1px solid #000000;
+	border-radius: 80px;
+}
+
+#c009 {
+	position: fixed;
+	width: 90px;
+	height: 90px;
+	top: 210px;
+	left: 210px;
+	border: 1px solid #000000;
+	border-radius: 90px;
+}
+
+#c010 {
+	position: fixed;
+	width: 100px;
+	height: 100px;
+	top: 205px;
+	left: 205px;
+	border: 1px solid #000000;
+	border-radius: 100px;
+}
+
+#c011 {
+	position: fixed;
+	width: 110px;
+	height: 110px;
+	top: 200px;
+	left: 200px;
+	border: 1px solid #000000;
+	border-radius: 110px;
+}
+
+#c012 {
+	position: fixed;
+	width: 120px;
+	height: 120px;
+	top: 195px;
+	left: 195px;
+	border: 1px solid #000000;
+	border-radius: 120px;
+}
+
+#c013 {
+	position: fixed;
+	width: 130px;
+	height: 130px;
+	top: 190px;
+	left: 190px;
+	border: 1px solid #000000;
+	border-radius: 130px;
+}
+
+#c014 {
+	position: fixed;
+	width: 140px;
+	height: 140px;
+	top: 185px;
+	left: 185px;
+	border: 1px solid #000000;
+	border-radius: 140px;
+}
+
+#c015 {
+	position: fixed;
+	width: 150px;
+	height: 150px;
+	top: 180px;
+	left: 180px;
+	border: 1px solid #000000;
+	border-radius: 150px;
+}
+
+#c016 {
+	position: fixed;
+	width: 160px;
+	height: 160px;
+	top: 175px;
+	left: 175px;
+	border: 1px solid #000000;
+	border-radius: 160px;
+}
+
+#c017 {
+	position: fixed;
+	width: 170px;
+	height: 170px;
+	top: 170px;
+	left: 170px;
+	border: 1px solid #000000;
+	border-radius: 170px;
+}
+
+#c018 {
+	position: fixed;
+	width: 180px;
+	height: 180px;
+	top: 165px;
+	left: 165px;
+	border: 1px solid #000000;
+	border-radius: 180px;
+}
+
+#c019 {
+	position: fixed;
+	width: 190px;
+	height: 190px;
+	top: 160px;
+	left: 160px;
+	border: 1px solid #000000;
+	border-radius: 190px;
+}
+
+#c020 {
+	position: fixed;
+	width: 200px;
+	height: 200px;
+	top: 155px;
+	left: 155px;
+	border: 1px solid #000000;
+	border-radius: 200px;
+}
+
+#c021 {
+	position: fixed;
+	width: 210px;
+	height: 210px;
+	top: 150px;
+	left: 150px;
+	border: 1px solid #000000;
+	border-radius: 210px;
+}
+
+#c022 {
+	position: fixed;
+	width: 220px;
+	height: 220px;
+	top: 145px;
+	left: 145px;
+	border: 1px solid #000000;
+	border-radius: 220px;
+}
+
+#c023 {
+	position: fixed;
+	width: 230px;
+	height: 230px;
+	top: 140px;
+	left: 140px;
+	border: 1px solid #000000;
+	border-radius: 230px;
+}
+
+#c024 {
+	position: fixed;
+	width: 240px;
+	height: 240px;
+	top: 135px;
+	left: 135px;
+	border: 1px solid #000000;
+	border-radius: 240px;
+}
+
+#c025 {
+	position: fixed;
+	width: 250px;
+	height: 250px;
+	top: 130px;
+	left: 130px;
+	border: 1px solid #000000;
+	border-radius: 250px;
+}
+
+#c026 {
+	position: fixed;
+	width: 260px;
+	height: 260px;
+	top: 125px;
+	left: 125px;
+	border: 1px solid #000000;
+	border-radius: 260px;
+}
+
+#c027 {
+	position: fixed;
+	width: 270px;
+	height: 270px;
+	top: 120px;
+	left: 120px;
+	border: 1px solid #000000;
+	border-radius: 270px;
+}
+
+#c028 {
+	position: fixed;
+	width: 280px;
+	height: 280px;
+	top: 115px;
+	left: 115px;
+	border: 1px solid #000000;
+	border-radius: 280px;
+}
+
+#c029 {
+	position: fixed;
+	width: 290px;
+	height: 290px;
+	top: 110px;
+	left: 110px;
+	border: 1px solid #000000;
+	border-radius: 290px;
+}
+
+#c030 {
+	position: fixed;
+	width: 300px;
+	height: 300px;
+	top: 105px;
+	left: 105px;
+	border: 1px solid #000000;
+	border-radius: 300px;
+}
+
+#c031 {
+	position: fixed;
+	width: 310px;
+	height: 310px;
+	top: 100px;
+	left: 100px;
+	border: 1px solid #000000;
+	border-radius: 310px;
+}
